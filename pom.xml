@@ -69,6 +69,7 @@
             <artifactId>maven-checkstyle-plugin</artifactId>
             <version>2.15</version>
             <configuration>
+              <includeEmptyDirs>true</includeEmptyDirs>
                 <includes>**\/*.java,**\/*.xml</includes>
                 <sourceDirectory>src/main/archetype</sourceDirectory>
                 <configLocation>src/main/resources/checkstyle.xml</configLocation>

@@ -177,6 +177,12 @@
     </modules>
 
   <fileSets>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>ui.resources</directory>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>ui.tests.e2e</directory>
+    </fileSet>
     <fileSet encoding="UTF-8">
       <directory></directory>
       <includes>
